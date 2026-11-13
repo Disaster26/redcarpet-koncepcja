@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Red Carpet Media Group SA - pierwsza telewizja popkulturowa</title><meta name="description" content="Red Carpet Media Group SA: kanały SHOW TV i SHORT TV, platforma RED GO, kanały Red Carpet International na platformach FAST. Relacje inwestorskie, raporty ESPI i EBI."><meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#000000"><link rel="icon" href="img/favicon.png"><link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preload" href="fonts/jost-rdzen.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="fonts/inter-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" imagesrcset="img/hero-640.webp 640w, img/hero-960.webp 960w, img/hero-1400.webp 1400w, img/hero-2040.webp 2040w" imagesizes="(max-width:760px) 120vw, 64vw" fetchpriority="high">
+<style>@font-face{font-family:"Jost";font-weight:500 700;font-display:swap;src:url(fonts/jost-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Jost";font-weight:500 700;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Inter";font-weight:400 600;font-display:swap;src:url(fonts/inter-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Inter";font-weight:400 600;font-display:swap;src:url(fonts/inter-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+
+:root{--red:#DA0000;--red2:#B80000;--ink:#0E0F11;--txt:#2A2D33;--mut:#5E636B;--line:#DADDE2;--gray:#F1F2F4;--blk:#0B0B0C;--tq:#00CBC7;--wrap:min(1200px,calc(100% - 32px));--hh:64px}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--hh) + 56px)}
+body{margin:0;font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--txt);background:#fff;overflow-x:hidden}
+img{max-width:100%;display:block}a{color:inherit}
+h1,h2,h3{font-family:Jost,Inter,system-ui,sans-serif;color:var(--ink);line-height:1.1;margin:0;font-weight:700;letter-spacing:-.01em}
+h2{font-size:clamp(30px,4.2vw,48px)}h3{font-size:21px;font-weight:600}
+.k{display:inline-block;width:.2em;height:.2em;background:var(--red);margin-left:.06em;vertical-align:baseline}
+.wrap{width:var(--wrap);margin:0 auto}.nw{white-space:nowrap}
+.sec{padding:clamp(56px,8vw,104px) 0}.sec.g{background:var(--gray)}
+.sec-h{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 32px;margin-bottom:clamp(28px,4vw,44px)}
+.sec-h p{margin:0;max-width:560px;color:var(--mut)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 26px;background:var(--red);color:#fff;font:600 16px/1 Inter,sans-serif;text-decoration:none;border:0;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--red2)}.btn i{width:9px;height:9px;background:#fff;display:inline-block}
+.btn.bk{background:var(--ink)}.btn.bk:hover{background:#000}
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#000;color:#fff;height:var(--hh)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#fff;margin-right:auto}
+.logo img{width:44px;height:44px}.logo span{font:600 15px/1.2 Jost,sans-serif;letter-spacing:.01em}
+.nav{display:flex;gap:4px}.nav a{padding:10px 14px;text-decoration:none;font-weight:500;font-size:15px;color:#E6E7EA;position:relative}
+.nav a:hover{color:#fff}.nav a[aria-current=page]{color:#fff}
+.nav a[aria-current=page]::after{content:"";position:absolute;left:14px;right:14px;bottom:2px;height:3px;background:var(--red)}
+.burger{display:none;width:48px;height:48px;margin-right:-10px;background:none;border:0;color:#fff;cursor:pointer;position:relative}
+.burger b,.burger b::before,.burger b::after{position:absolute;left:13px;width:22px;height:2px;background:#fff;content:"";transition:transform .2s}
+.burger b{top:23px}.burger b::before{top:-7px;left:0}.burger b::after{top:7px;left:0}
+.menu-open .burger b{background:transparent}.menu-open .burger b::before{transform:translateY(7px) rotate(45deg)}.menu-open .burger b::after{transform:translateY(-7px) rotate(-45deg)}
+@media (max-width:860px){.burger{display:block}.logo span{display:none}
+.nav{position:fixed;inset:var(--hh) 0 auto 0;background:#000;flex-direction:column;padding:8px 16px 24px;gap:0;transform:translateY(-8px);opacity:0;visibility:hidden;transition:.2s}
+.menu-open .nav{transform:none;opacity:1;visibility:visible}.nav a{padding:16px 4px;font-size:19px;border-bottom:1px solid #222}.nav a[aria-current=page]::after{left:4px;right:auto;width:28px;bottom:8px}}
+/* stopka */
+.foot{background:#000;color:#B9BCC2;padding:48px 0 28px;font-size:14px}
+.foot .cols{display:grid;grid-template-columns:2fr 1fr 1.3fr;gap:28px}
+.foot h3{color:#fff;font-size:16px;margin-bottom:10px}.foot p{margin:0 0 4px}.foot a{color:#E6E7EA;text-decoration:none}.foot a:hover{text-decoration:underline}
+.foot ul{list-style:none;margin:0;padding:0}.foot li{margin:0 0 6px}
+.foot .bot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;border-top:1px solid #26282C;margin-top:32px;padding-top:20px}
+@media (max-width:760px){.foot .cols{grid-template-columns:1fr 1fr}.foot .cols>div:first-child{grid-column:1/-1}}
+/* cookies */
+.cookies{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;max-width:760px;margin:0 auto;background:#fff;color:var(--txt);border:1px solid var(--line);box-shadow:0 8px 30px rgba(0,0,0,.18);padding:12px 14px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;font-size:13.5px;line-height:1.45}
+.cookies[hidden]{display:none}.cookies p{margin:0;flex:1 1 300px}.cookies a{color:var(--red)}
+.cookies .cb{display:flex;gap:8px}.cookies button{min-height:40px;padding:0 14px;font:600 14px Inter,sans-serif;cursor:pointer;border:1px solid var(--ink);background:#fff;color:var(--ink)}
+.cookies button.ok{background:var(--ink);color:#fff}
+@media (max-width:600px){.cookies{left:8px;right:8px;bottom:8px;padding:10px 12px;font-size:12.5px;gap:8px}.cookies p{flex-basis:100%}.cookies .cb{width:100%}.cookies button{flex:1;min-height:38px;font-size:13.5px}}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;z-index:99;background:#fff;padding:8px}
+:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+.hero{position:relative;background:#000;color:#fff;min-height:calc(100svh - var(--hh));display:flex;flex-direction:column;overflow:hidden}
+.hero-foto{position:absolute;left:0;top:0;bottom:0;width:min(64%,1100px)}
+.hero-foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:0 30%}
+.hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,0) 40%,#000 98%),linear-gradient(0deg,rgba(0,0,0,.55),rgba(0,0,0,0) 30%)}
+.hero-in{position:relative;flex:1 1 auto;display:flex;align-items:center;width:var(--wrap);margin:0 auto;padding:48px 0}
+.hero-tx{margin-left:auto;width:min(560px,46%)}
+.hero h1{color:#fff;font-size:clamp(40px,5.4vw,76px);line-height:1.02;font-weight:700;margin:0 0 22px}
+.hero .lead{font-size:clamp(17px,1.35vw,20px);line-height:1.55;color:#E3E4E7;margin:0 0 30px;max-width:520px}
+.dywan{position:relative;background:var(--red);color:#fff;font-size:14.5px;line-height:1.4}
+.dywan .wrap{display:flex;flex-wrap:wrap;gap:4px 18px;padding:14px 0;align-items:baseline}
+.dywan b{font:600 15px Jost,sans-serif;margin-right:4px}.dywan span{white-space:nowrap}
+@media (max-width:760px){
+.hero-foto{position:relative;width:100%;flex:1 1 0;min-height:38svh}
+.hero-foto img{object-position:12% 18%}
+.hero-foto::after{background:linear-gradient(0deg,#000 2%,rgba(0,0,0,0) 45%)}
+.hero-in{flex:0 0 auto;padding:0 0 26px;margin-top:-34px}.hero-tx{width:100%;margin:0}
+.hero h1{font-size:clamp(34px,10.4vw,46px);margin-bottom:14px}.hero .lead{font-size:16px;margin-bottom:24px}
+.hero .btn{width:100%}.dywan{font-size:13px}.dywan .wrap{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;gap:12px;padding:12px 0}.dywan .wrap::-webkit-scrollbar{display:none}}
+/* kanaly */
+.kan{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.kan article{display:flex;flex-direction:column;border:1px solid var(--line);background:#fff}
+.kan .nm{min-height:116px;padding:20px;display:flex;align-items:flex-end;font:700 30px/1 Jost,sans-serif;color:#fff;background:var(--red);position:relative}
+.kan .nm::after{content:"";position:absolute;right:20px;bottom:24px;width:12px;height:12px;background:#000}
+.kan .nm.c2{background:#000}.kan .nm.c2::after{background:var(--red)}
+.kan .nm.c3{background:var(--tq);color:#000}.kan .nm.c4{background:#fff;color:#000;border-bottom:1px solid var(--line)}.kan .nm.c4::after{background:var(--red)}
+.kan .bd{padding:20px;flex:1}.kan .bd p{margin:0 0 12px;font-size:15px}.kan .fakt{color:var(--mut);font-size:14px;border-top:1px solid var(--line);padding-top:12px;margin-top:auto}
+.sec-note{margin:28px 0 0;color:var(--mut);font-size:15px;max-width:820px}
+@media (max-width:1060px){.kan{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.kan{grid-template-columns:minmax(0,1fr)}.kan .nm{min-height:84px}}
+/* programy */
+.car{position:relative}
+.track{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;cursor:grab;-webkit-overflow-scrolling:touch}
+.track::-webkit-scrollbar{display:none}.track.drag{cursor:grabbing;scroll-snap-type:none}.track.drag a{pointer-events:none}
+.prog{flex:0 0 clamp(240px,26vw,300px);scroll-snap-align:start;background:#fff;user-select:none}
+.prog img{width:100%;aspect-ratio:1;object-fit:cover;-webkit-user-drag:none}
+.prog div{padding:16px 18px 20px}.prog h3{font-size:20px;margin-bottom:6px}.prog p{margin:0;font-size:14.5px;color:var(--mut);line-height:1.5}
+.arr{display:flex;gap:8px}.arr button{width:48px;height:48px;border:1px solid var(--ink);background:#fff;cursor:pointer;display:grid;place-items:center}
+.arr button:hover{background:var(--ink)}.arr button:hover svg{stroke:#fff}.arr svg{width:18px;height:18px;fill:none;stroke:var(--ink);stroke-width:2}
+.licz{font:500 15px Inter,sans-serif;color:var(--mut);align-self:center;margin-right:8px}
+/* RI skrot */
+.ri{background:var(--blk);color:#C9CBD0}.ri h2{color:#fff}.ri .sec-h p{color:#A9ACB3}
+.ri-g{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(28px,5vw,72px)}
+.rl{list-style:none;margin:0;padding:0;border-top:1px solid #2A2C30}
+.rl li{border-bottom:1px solid #2A2C30}.rl a{display:grid;grid-template-columns:110px minmax(0,1fr) auto;gap:16px;padding:18px 0;text-decoration:none;color:#fff;align-items:baseline}
+.rl a:hover .t{text-decoration:underline}.rl .d{color:#A9ACB3;font-size:14px;font-variant-numeric:tabular-nums}.rl .t{font-weight:500}.rl .x{color:#A9ACB3;font-size:13px}
+.ri-side h3{color:#fff;font-size:18px;margin-bottom:8px}.ri-side p{margin:0 0 6px}.ri-side .blk{padding:0 0 22px;margin-bottom:22px;border-bottom:1px solid #2A2C30}
+.ri-side .big{font:700 30px/1.1 Jost,sans-serif;color:#fff;margin:4px 0 6px}.ri-side a{color:#fff}
+.ri .btn{margin-top:30px}
+@media (max-width:860px){.ri-g{grid-template-columns:minmax(0,1fr)}.rl a{grid-template-columns:minmax(0,1fr);gap:2px}.rl .x{display:none}}
+/* strategia */
+.str{display:grid;grid-template-columns:1fr 1.25fr;gap:clamp(28px,6vw,96px);align-items:start}
+.str p{margin:0 0 16px;font-size:17px}.str ul{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}
+.str li{padding:16px 0 16px 26px;border-bottom:1px solid var(--line);position:relative}.str li::before{content:"";position:absolute;left:0;top:25px;width:10px;height:10px;background:var(--red)}
+.src{font-size:13.5px;color:var(--mut)}
+@media (max-width:860px){.str{grid-template-columns:minmax(0,1fr)}}
+/* kontakt */
+.kt{display:grid;grid-template-columns:1fr 1.15fr;gap:clamp(28px,5vw,72px)}
+.kt dl{margin:0 0 24px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px 24px}
+.kt dt{font:600 15px Jost,sans-serif;color:var(--ink);margin-bottom:2px}.kt dd{margin:0;font-size:15px}.kt dd a{color:var(--red);font-weight:500}
+.map{aspect-ratio:16/10;background:#E3E5E9 center/cover;border:1px solid var(--line)}.map iframe{width:100%;height:100%;border:0;display:block}
+form.f{background:#fff;padding:clamp(20px,3vw,32px);border:1px solid var(--line)}
+.f label{display:block;font-weight:600;font-size:14px;margin:0 0 6px;color:var(--ink)}
+.f input,.f select,.f textarea{width:100%;font:16px Inter,sans-serif;padding:12px 14px;border:1px solid #BFC3C9;background:#fff;color:var(--ink);margin-bottom:16px;border-radius:0}
+.f textarea{min-height:120px;resize:vertical}.f .r2{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}
+.f small{display:block;color:var(--mut);font-size:12.5px;line-height:1.5;margin:0 0 16px}.f .msg{margin:12px 0 0;font-size:14px;color:var(--ink)}
+@media (max-width:860px){.kt{grid-template-columns:minmax(0,1fr)}.f .r2{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:420px){.kt dl{grid-template-columns:minmax(0,1fr)}}
+</style></head><body><a class="skip" href="#tresc">Przejdź do treści</a>
+<header class="top"><div class="wrap"><a class="logo" href="index.html" aria-label="Red Carpet Media Group, strona główna"><img src="img/logo-96.webp" width="44" height="44" alt="red."><span>Red Carpet<br>Media Group SA</span></a>
+<nav class="nav" id="nav" aria-label="Menu główne"><a href="index.html#kanaly">Kanały</a><a href="index.html#programy">Programy</a><a href="relacje-inwestorskie.html">Relacje inwestorskie</a><a href="index.html#kontakt">Kontakt</a></nav><button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav"><b></b></button></div></header>
+<main id="tresc">
+<section class="hero"><div class="hero-foto"><img src="img/hero-1400.webp" srcset="img/hero-640.webp 640w, img/hero-960.webp 960w, img/hero-1400.webp 1400w, img/hero-2040.webp 2040w" sizes="(max-width:760px) 120vw, 64vw" width="2040" height="1872" alt="Wokalista na scenie programu Muzyczny Express" fetchpriority="high" decoding="async"></div>
+<div class="hero-in"><div class="hero-tx"><h1>Pierwsza telewizja <span class="nw">popkulturowa<span class="k"></span></span></h1>
+<p class="lead">Red Carpet Media Group SA jest nadawcą kanałów SHOW TV i SHORT TV, wydawcą platformy RED GO oraz kanałów Red Carpet International na platformach FAST.</p>
+<a class="btn" href="relacje-inwestorskie.html">Relacje inwestorskie <i></i></a></div></div>
+<div class="dywan"><div class="wrap"><b>Gdzie oglądać</b><span>Canal+ 189</span><span>UPC 420/162</span><span>Netia 118</span><span>Multimedia 187</span><span>Vectra 722</span><span>Toya 214</span><span>Inea 213</span></div></div></section>
+
+<section class="sec" id="kanaly"><div class="wrap"><div class="sec-h"><h2>Kanały i <span class="nw">platformy<span class="k"></span></span></h2><p>Telewizja kablowa i satelitarna w Polsce, streaming w USA, Kanadzie i Wielkiej Brytanii oraz własna platforma VOD.</p></div>
+<div class="kan">
+<article><div class="nm">SHOW TV</div><div class="bd"><p>Kultura, sztuka, show-biznes, media i lifestyle. Do sierpnia 2025 roku kanał nadawał jako Red Carpet TV, ma własny zespół dziennikarski i formaty.</p><p class="fakt">250 operatorów kablowych, ok. 7,5 mln gospodarstw domowych</p></div></article>
+<article><div class="nm c2">SHORT TV</div><div class="bd"><p>Kanał filmowo-serialowy (ViDocTV1): klasyka kina, seriale z całego świata w nowych tłumaczeniach, a od 2026 roku seriale w formule short drama.</p><p class="fakt">Ponad 200 operatorów, ok. 5,3 mln odbiorców, HD i 4K</p></div></article>
+<article><div class="nm c3">RED GO</div><div class="bd"><p>Platforma VOD z filmami dla koneserów rzadkich tytułów i dla fanów kina akcji, dramatu, romansu i kryminału, w modelach T-VOD, S-VOD i A-VOD.</p><p class="fakt">Działa od 31 maja 2022 roku, redgo.film</p></div></article>
+<article><div class="nm c4">Red Carpet International</div><div class="bd"><p>Kanały Red Carpet International i Red Carpet Fashion TV na platformach FAST, z lokalnymi reklamami w modelu DAI, także w Rakuten TV.</p><p class="fakt">USA, Kanada, Wielka Brytania</p></div></article>
+</div><p class="sec-note">Czas reklamowy w kanałach sprzedaje TVN Media. Oferujemy też sponsoring, lokowanie produktu, telesprzedaż i produkcję materiałów wideo.</p></div></section>
+
+<section class="sec g" id="programy"><div class="wrap"><div class="sec-h"><h2><span class="nw">Programy<span class="k"></span></span></h2><div class="arr"><span class="licz" id="licz">1 / 10</span><button type="button" data-dir="-1" aria-label="Poprzednie"><svg viewBox="0 0 20 20"><path d="M12.5 4 6.5 10l6 6"/></svg></button><button type="button" data-dir="1" aria-label="Następne"><svg viewBox="0 0 20 20"><path d="M7.5 4l6 6-6 6"/></svg></button></div></div>
+<div class="car"><div class="track" id="track" tabindex="0" aria-label="Programy, przesuń w bok"><article class="prog"><img src="img/p-willy.webp" width="560" height="560" alt="Willy Agent" loading="lazy" decoding="async"><div><h3>Willy Agent</h3><p>Redaktor Willy Tischer i spotkania z gwiazdami polskiej sceny: kulisy życia, pasji i sukcesów.</p></div></article><article class="prog"><img src="img/p-cannes.webp" width="560" height="560" alt="Cannes 2024" loading="lazy" decoding="async"><div><h3>Cannes 2024</h3><p>Relacje z 77. Festiwalu Filmowego w Cannes: premiery, kulisy i wywiady. Prowadzi Anna Kostrzewska.</p></div></article><article class="prog"><img src="img/p-sekrety.webp" width="560" height="560" alt="Sekrety Autorów" loading="lazy" decoding="async"><div><h3>Sekrety Autorów</h3><p>Za kulisami literackiego świata: jak pracują autorzy i jak powstają ich książki.</p></div></article><article class="prog"><img src="img/p-warsztat.webp" width="560" height="560" alt="Warsztat Filmowy" loading="lazy" decoding="async"><div><h3>Warsztat Filmowy</h3><p>Kaja Klimek wybiera najważniejsze nowości filmowe i serialowe, ocenia je i zagląda na plany zdjęciowe.</p></div></article><article class="prog"><img src="img/p-filmonewsy.webp" width="560" height="560" alt="FilmoNewsy" loading="lazy" decoding="async"><div><h3>FilmoNewsy</h3><p>Przegląd najciekawszych filmów minionych dni i lat: co obejrzeć na platformach, w kinie i w telewizji.</p></div></article><article class="prog"><img src="img/p-miedzy.webp" width="560" height="560" alt="Między Gwiazdami" loading="lazy" decoding="async"><div><h3>Między Gwiazdami</h3><p>Paulina Koziejowska z relacjami z imprez i z tego, co dzieje się na ściankach.</p></div></article><article class="prog"><img src="img/p-top13.webp" width="560" height="560" alt="TOP 13" loading="lazy" decoding="async"><div><h3>TOP 13</h3><p>Rankingi gwiazd: od najdroższych samochodów, przez stylizacje, po wykształcenie.</p></div></article><article class="prog"><img src="img/p-redakcja.webp" width="560" height="560" alt="Red!Akcja" loading="lazy" decoding="async"><div><h3>Red!Akcja</h3><p>Program o kulturze i sztuce: gdzie warto być, co zobaczyć i kogo posłuchać. Prowadzi Mateusz Michalski.</p></div></article><article class="prog"><img src="img/p-planetarium.webp" width="560" height="560" alt="Planetarium" loading="lazy" decoding="async"><div><h3>Planetarium</h3><p>Co w show-biznesie piszczy: wpadki, rozstania, powroty i wszystko, o czym się mówi.</p></div></article><article class="prog"><img src="img/p-muzyczny.webp" width="560" height="560" alt="Muzyczny Express" loading="lazy" decoding="async"><div><h3>Muzyczny Express</h3><p>Historie zespołów i muzyków: debiutantów i legend słuchanych przez pokolenia.</p></div></article></div></div></div></section>
+
+<section class="sec ri"><div class="wrap"><div class="sec-h"><h2>Relacje <span class="nw">inwestorskie<span class="k"></span></span></h2><p>Dla uczestników rynku kapitałowego, akcjonariuszy oraz obecnych i potencjalnych inwestorów. Akcje spółki są notowane na rynku NewConnect.</p></div>
+<div class="ri-g"><div><h3 style="color:#fff;font-size:18px;margin-bottom:14px">Ostatnie raporty okresowe</h3><ul class="rl"><li><a href="https://red-carpet.pl/info/info1786740559.pdf" rel="noopener"><span class="d">14.08.2026</span><span class="t">Skonsolidowany raport kwartalny za II kwartał 2026 roku</span><span class="x">PDF</span></a></li><li><a href="https://biznes.pap.pl/wiadomosci/firmy/red-carpet-media-group-sa-142026-skonsolidowany-raport-kwartalny-za-i-kwartal" rel="noopener"><span class="d">14.05.2026</span><span class="t">Skonsolidowany raport kwartalny za I kwartał</span><span class="x">EBI 14/2026</span></a></li><li><a href="https://biznes.pap.pl/wiadomosci/firmy/red-carpet-media-group-sa-62026-skonsolidowany-raport-kwartalny-za-iv-kwartal" rel="noopener"><span class="d">16.02.2026</span><span class="t">Skonsolidowany raport kwartalny za IV kwartał</span><span class="x">EBI 6/2026</span></a></li><li><a href="https://biznes.pap.pl/wiadomosci/firmy/red-carpet-media-group-sa-192025-skonsolidowany-raport-kwartalny-emitenta-za-iii" rel="noopener"><span class="d">14.11.2025</span><span class="t">Skonsolidowany raport kwartalny Emitenta za III kwartał 2025 roku</span><span class="x">EBI 19/2025</span></a></li><li><a href="https://biznes.pap.pl/wiadomosci/firmy/red-carpet-media-group-sa-162025-skonsolidowany-raport-kwartalny-emitenta-za-ii" rel="noopener"><span class="d">14.08.2025</span><span class="t">Skonsolidowany raport kwartalny Emitenta za II kwartał 2025 roku</span><span class="x">EBI 16/2025</span></a></li></ul><a class="btn" href="relacje-inwestorskie.html#raporty">Wszystkie raporty ESPI i EBI <i></i></a></div>
+<div class="ri-side"><div class="blk"><h3>Najbliższy termin</h3><p class="big">16 listopada 2026</p><p>Skonsolidowany raport kwartalny za III kwartał 2026 roku, według harmonogramu z raportu EBI 4/2026.</p></div>
+<div class="blk"><h3>Ostatnie walne zgromadzenie</h3><p>Zwyczajne Walne Zgromadzenie, 14 września 2026 roku. <a href="relacje-inwestorskie.html#walne">Uchwały i dokumenty</a></p></div>
+<div><h3>Kontakt dla inwestorów</h3><p><a href="mailto:inwestorzy@red-carpet.pl">inwestorzy@red-carpet.pl</a></p></div></div></div></div></section>
+
+<section class="sec"><div class="wrap str"><div><h2>Kierunek <span class="nw">rozwoju<span class="k"></span></span></h2></div>
+<div><p>Grupa przechodzi od modelu skupionego na rynku polskim do międzynarodowej grupy contentowej, która wykorzystuje własną bibliotekę licencji, kanały FAST, platformy streamingowe i produkcję własnych treści.</p>
+<ul><li>Biblioteka ponad 2 600 tytułów jako podstawa międzynarodowej oferty.</li><li>Ok. 50 kanałów FAST w USA, Kanadzie, Wielkiej Brytanii, Niemczech i Hiszpanii, uruchamianych w trzech etapach w ciągu czterech lat.</li><li>RED GO w nowej formule: klasyka, telenowele, short drama i produkcje własne.</li><li>Ok. 15 kanałów przygotowywanych dla międzynarodowych platform FAST.</li></ul>
+<p class="src" style="margin-top:14px">Źródło: dokument „Strategia rozwoju” w relacjach inwestorskich spółki.</p></div></div></section>
+
+<section class="sec g" id="kontakt"><div class="wrap"><div class="sec-h"><h2><span class="nw">Kontakt<span class="k"></span></span></h2></div><div class="kt"><div>
+<dl><div><dt>Biuro</dt><dd><a href="mailto:biuro@red-carpet.pl">biuro@red-carpet.pl</a><br><a href="tel:+48225210677">22 521 06 77</a></dd></div>
+<div><dt>Inwestorzy</dt><dd><a href="mailto:inwestorzy@red-carpet.pl">inwestorzy@red-carpet.pl</a></dd></div>
+<div><dt>Praca w zespole</dt><dd><a href="mailto:praca@red-carpet.pl">praca@red-carpet.pl</a></dd></div>
+<div><dt>Adres</dt><dd>ul. Żurawia 32/34<br>00-515 Warszawa</dd></div></dl>
+<div class="map" id="map" data-src="https://www.google.com/maps?q=%C5%BBurawia+32%2F34,+00-515+Warszawa&amp;output=embed" aria-label="Mapa: ul. Żurawia 32/34, Warszawa"></div></div>
+<form class="f" id="form" novalidate><h3 style="margin-bottom:6px">Napisz do nas</h3><p style="margin:0 0 18px;color:var(--mut);font-size:15px">Akredytacje, zaproszenia, propozycje dla redakcji i współpraca reklamowa.</p>
+<div class="r2"><div><label for="f1">Imię i nazwisko</label><input id="f1" name="imie" autocomplete="name"></div><div><label for="f2">E-mail</label><input id="f2" name="email" type="email" autocomplete="email"></div></div>
+<label for="f3">Sprawa</label><select id="f3" name="sprawa"><option>Redakcja: akredytacje i zaproszenia</option><option>Współpraca reklamowa</option><option>Relacje inwestorskie</option><option>Inne</option></select>
+<label for="f4">Wiadomość</label><textarea id="f4" name="tresc"></textarea>
+<small>Administratorem danych jest Red Carpet Media Group SA, ul. Żurawia 32/34, Warszawa. Dane z formularza wykorzystamy tylko do odpowiedzi. Szczegóły w <a href="polityka-prywatnosci.html">polityce prywatności</a>.</small>
+<button class="btn" type="submit">Wyślij wiadomość <i></i></button><p class="msg" id="fmsg" role="status"></p></form></div></div></section>
+</main>
+<footer class="foot"><div class="wrap"><div class="cols">
+<div><h3>Red Carpet Media Group Spółka Akcyjna</h3><p>ul. Żurawia 32/34, 00-515 Warszawa</p><p>KRS 0000841819 · NIP 5252505498 · REGON 142924369</p><p>Kapitał zakładowy 465 000,00 zł, w pełni opłacony</p></div>
+<div><h3>Strona</h3><ul><li><a href="index.html#kanaly">Kanały</a></li><li><a href="index.html#programy">Programy</a></li><li><a href="relacje-inwestorskie.html">Relacje inwestorskie</a></li><li><a href="index.html#kontakt">Kontakt</a></li></ul></div>
+<div><h3>Kontakt</h3><ul><li><a href="mailto:biuro@red-carpet.pl">biuro@red-carpet.pl</a></li><li><a href="mailto:inwestorzy@red-carpet.pl">inwestorzy@red-carpet.pl</a></li><li><a href="tel:+48225210677">22 521 06 77</a></li><li><a href="https://www.facebook.com/RedCarpetTelewizja" rel="noopener">Facebook</a></li></ul></div>
+</div><div class="bot"><span>© 2026 Red Carpet Media Group SA · <a href="polityka-prywatnosci.html">Polityka prywatności</a></span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=red-carpet.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div></div></footer>
+<div class="cookies" id="ck" hidden><p>Używamy niezbędnych cookies, statystyki tylko po Twojej zgodzie. <a href="polityka-prywatnosci.html">Polityka prywatności</a></p><div class="cb"><button type="button" data-ck="0">Tylko niezbędne</button><button type="button" class="ok" data-ck="1">Akceptuję</button></div></div>
+<script>try{if(!localStorage.getItem('rc_ck'))document.getElementById('ck').hidden=false}catch(e){document.getElementById('ck').hidden=false}</script>
+<script src="site.js" defer></script></body></html>
